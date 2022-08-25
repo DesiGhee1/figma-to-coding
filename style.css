@@ -302,3 +302,101 @@ nav{
     background-color: rgb(245, 245, 245);
     border-radius: 5px;
 }
+
+.calculation-details-box-pair > div{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+    padding: 5px;
+}
+
+.calculation-details-box-pair > div > p{
+    font-weight: 600;
+}
+
+/* tax links */
+.tax-links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tax-links-container{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+    max-width: 1337px;
+}
+
+.tax-links-documents{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tax-links-documents:hover svg{
+    transform: translateY(-10px);
+}
+
+.tax-links-documents svg{
+    margin-bottom: 40px;
+    color: RGB(253, 182, 41);
+    transition: all 0.3s ease;
+}
+
+.tax-links-documents h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tax-links-documents p{
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 25px;
+    padding: 0 20px;
+    font-weight: 500;
+}
+
+.tax-links-documents a{
+    text-decoration: none;
+    font-weight: 700;
+    color: RGB(253, 182, 41);
+    transition: all 0.3s ease;
+}
+
+.tax-links-documents a:hover{
+    color: RGB(253, 160, 41);
+}
+
+.tax-links-download{
+    display: flex;
+    justify-content: center;
+}
+
+.tax-links-download a{
+    margin-right: 10px;
+}
+
+/* tax slab section */
+.tax-slab{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: RGB(247, 247, 247);
+}
+
+.tax-slab-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1337px;
+}
+
+.tax-slab-container h1{
+    margin: 55px 0 0 0;
+    color: rgb(84, 6, 173);
+    font-size: 25px;
+    text-align: center;
+}
