@@ -66,7 +66,7 @@ nav{
 
 .calculator::before{
     content: "";
-    background: url("./images/c-mo-saber-las-caracter-sticas-y-especificaciones-de-mi-celular-con-el-imei-o-los-ajustes\ 1.jpg");
+    background: url("./images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -496,7 +496,8 @@ nav{
 }
 .contact-content::before{
     content: "";
-    background: url("./images/05-Contact-Us\ 1.jpg");
+    background: url("./images/contact-us.jpg");
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -778,3 +779,7 @@ nav{
 .contact-content-left p{
     text-align: center;
 }
+
+
+
+background: url("./images/c-mo-saber-las-caracter-sticas-y-especificaciones-de-mi-celular-con-el-imei-o-los-ajustes\ 1.jpg");
