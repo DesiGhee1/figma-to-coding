@@ -615,3 +615,40 @@ nav{
     justify-content: space-between;
     width: 140px;
 }
+
+.footer-social-links img{
+    border: 7px solid rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+
+.footer p{
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.footer-contact{
+    margin: 10px 0 5px 0;
+    border-bottom: 3px solid rgba(255, 255, 255, 1);
+}
+
+/* responsive */
+@media only screen and (max-width: 1024px) {
+    .calculator-input select{
+        margin: 0 10px;
+    }
+
+    .contact-content-container{
+        width: 90%;
+    }
+
+    .contact-content-left{
+        width: calc(100% - 460px);
+    }
+}
+
+@media only screen and (max-width: 768px){
+    nav.active{
+        height: 240px;
+    }
