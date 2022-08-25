@@ -494,3 +494,124 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+.contact-content::before{
+    content: "";
+    background: url("./images/05-Contact-Us\ 1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.contact-content-left h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(224, 162, 37);
+}
+
+.contact-content-left p{
+    font-size: 18px;
+}
+
+.contact-content-right{
+    height: 440px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 50px 0;
+    box-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contact-content-right input{
+    padding-left: 20px;
+    margin-top: 20px;
+    height: 52px;
+    width: 90%;
+    border: 2px solid rgba(174, 174, 174, 0.92);
+    outline: none;
+    border-radius: 5px;
+}
+
+.contact-content-right input::placeholder{
+    font-weight: 600;
+}
+
+.contact-content-right #query-input{
+    padding: 0 0 120px 20px;
+    margin-top: 20px;
+    height: 160px;
+    width: 90%;
+    border: 2px solid rgba(174, 174, 174, 0.92);
+    outline: none;
+    border-radius: 5px;
+}
+
+.contact-content-right #query-input::placeholder{
+    font-weight: 600;
+}
+
+.contact-content-right button{
+    height: 52px;
+    width: 90%;
+    margin: 20px 0 15px 0;
+    border: 2px solid rgb(187, 125, 1);
+    background-color: rgb(224, 162, 37);
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.about-us{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us-container{
+    max-width: 1337px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us h1{
+    margin: 70px 0 50px 0;
+    color: rgb(224, 162, 37);
+    font-size: 25px;
+}
+
+.about-us-para{
+    width: 90%;
+    margin-bottom: 80px;
+}
+
+.about-us-para p{
+    text-align: center;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+/* footer section */
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, rgb(221, 194, 139) 0%, rgb(224, 162, 37) 100%);
+}
+
+.footer-social-links{
+    margin: 30px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+}
