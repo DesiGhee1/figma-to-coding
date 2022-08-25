@@ -299,7 +299,7 @@ nav{
 }
 
 .calculation-details-box-pair{
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
 }
 
@@ -399,4 +399,98 @@ nav{
     color: rgb(84, 6, 173);
     font-size: 25px;
     text-align: center;
+}
+
+.tax-slab-content{
+    width: 100%;
+    margin: 38px 0 70px 0;
+}
+
+.tax-slab-accordion{
+    width: 100%;
+    background-color: RGB(239, 239, 238);
+    margin-bottom: 20px;
+    padding: 12px 0 12px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.tax-slab-accordion-title{
+    display: flex;
+    align-items: center;
+}
+
+.tax-slab-accordion-title img{
+    width: 15px;
+    margin-right: 10px;
+}
+
+.tax-slab-accordion-title p{
+    font-weight: 600;
+}
+
+.tax-slab-accordion-para{
+    max-height: 0;
+    overflow: hidden;
+    background-color: RGB(239, 239, 238);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.accordion-minus{
+    display: none;
+}
+
+.tax-slab-accordion.active .tax-slab-accordion-para{
+    overflow: visible;
+    opacity: 1;
+}
+
+.tax-slab-accordion.active .accordion-plus{
+    display: none;
+}
+
+.tax-slab-accordion.active .accordion-minus{
+    display: block;
+}
+
+.tax-slab-accordion-para p{
+    font-weight: 500;
+    color: rgb(100, 100, 100);
+    margin: 10px 0 0 15px;
+}
+
+/* contact section */
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-container > h1{
+    margin: 55px 0 38px 0;
+    color: rgb(224, 162, 37);
+    font-size: 25px;
+}
+
+.contact-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.contact-content-container{
+    width: 85%;
+    max-width: 1337px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
