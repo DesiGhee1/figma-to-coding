@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Income Tax Calculator Pakistan 2022-23</title>
-        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="style.css" />
         <link
             rel="shortcut icon"
             href="./images/favicon-32x32.png"
@@ -18,8 +18,83 @@
             <div class="navbar-container">
                 <div class="navbar-logo">
                     <img
-                        src="./images/apple-touch-icon-114x114.png"
+                        src="images/calculator.jpg"
                         alt="calculator-logo"
                     />
                 </div>
                 <ul class="navbar-links">
+                    <a href="#calculator"><li>Calculator</li></a>
+                    <a href="#tax-slab"><li>Tax Slabs</li></a>
+                    <a href="#contact"><li>Contact</li></a>
+                    <a href="#about-us"><li>About</li></a>
+                </ul>
+                <div class="navbar-burger" id="burger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- calculator section -->
+        <section id="calculator">
+            <div class="calculator">
+                <div class="calculator-container">
+                    <h1 class="calculator-header">
+                        TAX CALCULATOR PAKISTAN 2022-2023
+                    </h1>
+                    <p class="calculator-para">
+                        This is latest tax calculator as per 2022-2023 budget
+                        presented by Government Of Pakistan.
+                    </p>
+                    <div class="calculator-input">
+                        <input
+                            type="text"
+                            name="amount"
+                            id="amount"
+                            placeholder="Enter Amount Here"
+                        />
+                        <select id="salary-selection">
+                            <option>Monthly</option>
+                            <option>Anually</option>
+                        </select>
+                        <button id="calculate-btn">Calculate</button>
+                    </div>
+                    <p class="calculator-terms">
+                        * Last updated : 30th June 2022. Check our Terms &
+                        Conditions
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- calculation result section-->
+        <section id="calculation-result"></section>
+
+        <!-- tax links section -->
+        <section>
+            <div class="tax-links">
+                <div class="tax-links-container">
+                    <div class="tax-links-documents basic">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="70"
+                            height="70"
+                            fill="currentColor"
+                            class="bi bi-book"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"
+                            />
+                        </svg>
+                        <h1>Basic Concepts of Income Tax</h1>
+                        <p>
+                            You can find the fundamentals of income tax including taxable and none taxable sources. This brochure is to assist taxpayers from Goverment Of Pakistan.
+                        </p>
+                        <a
+                            href="https://download1.fbr.gov.pk/Docs/20186291463739494BasicConceptsIncomeTax.pdf"
+                            target="_blank"
+                            >Download PDF</a
+                        >
+                    </div>  
